@@ -3200,10 +3200,10 @@ task.defer(function()
 					bigHeader.Text = "Axiom Loader"
 				end
 				if subTitle then
-					subTitle.Text = "Current Script"
+					subTitle.Text = "Showcase Script"
 				end
 				if desc then
-					desc.Text = "load the axiom showcase video script"
+					desc.Text = "Load the Axiom Video Showcase Script"
 				end
 			end
 
@@ -3220,7 +3220,7 @@ task.defer(function()
 			if not clickable then clickable = newCard:FindFirstChildWhichIsA("GuiButton") or newCard:FindFirstChildWhichIsA("GuiButton",true) or newCard end
 			local function runNA()
 				pcall(function()
-					loadstring(game:HttpGet("http://sniffyscripts.unaux.com/current.txt"))()
+					loadstring(game:HttpGet("https://pastebin.com/edit/hqn9AHen"))()
 				end)
 			end
 			if clickable:IsA("GuiButton") then
